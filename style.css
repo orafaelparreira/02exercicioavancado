@@ -1,0 +1,110 @@
+body {
+    background-color: #2C2B3D;
+    color: white;
+    margin: 0;
+    font-family: Open Sans;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: JetBrains Mono;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+}
+
+h1 strong {
+    color: #00BFA6;
+text-align: center;
+font-family: JetBrains Mono;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+}
+
+p {
+    color: #C2C2C2;
+text-align: center;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+.page {
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 71px auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 45px;
+}
+
+ul li a {
+    color: #FFF;
+text-align: center;
+font-family: JetBrains Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 200% */
+text-decoration: none;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main p span {
+    color: #00BFA6;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 28px;
+}
+
+.line {
+    width: 568.001px;
+    margin: 0 auto 8px;
+    border: 1px solid #00BFA6;
+    margin-top: 167px;
+}
+
+footer {
+    color: #FFF;
+text-align: center;
+font-family: JetBrains Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 200% */
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#cadeadim {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
